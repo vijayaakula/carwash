@@ -1,6 +1,6 @@
 <?php
 include('db.php');
-
+//hi change here
 if(isset($_POST['action'])&&($_POST['action']=='confirm_status')){
     $id=$_POST['id'];
     $st="confirmed";
